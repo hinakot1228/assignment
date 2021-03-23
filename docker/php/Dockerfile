@@ -14,4 +14,3 @@ RUN apt-get update \
     && docker-php-ext-install pdo_mysql pdo_pgsql
 
 WORKDIR /var/www/html
-
